@@ -10,17 +10,17 @@ import Redis from "ioredis";
 // AVNS_dEFHK1faIg3c7DTA3zg
 
 const pub = new Redis({
-    host: "redis-3ddc1af1-johndoeatconvoverse-3dc8.a.aivencloud.com",
-    port: 26490,
-    username: "default",
-    password: "AVNS_dEFHK1faIg3c7DTA3zg",
+    host: "",
+    port: ,
+    username: "",
+    password: "",
   });
   
   const sub = new Redis({
-    host: "redis-3ddc1af1-johndoeatconvoverse-3dc8.a.aivencloud.com",
-    port: 26490,
-    username: "default",
-    password: "AVNS_dEFHK1faIg3c7DTA3zg",
+    host: "",
+    port: ,
+    username: "",
+    password: " ",
   });
   
   class SocketService {
